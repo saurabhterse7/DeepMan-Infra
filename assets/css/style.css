@@ -1713,11 +1713,13 @@ proerty-th
     position: relative;
     width:100%;
     opacity: 0.7;
-    min-height: 225px;
+    min-height: 270px;
     max-height: 265px;
 }
 .proerty-th .proerty-item  .item-entry{
     padding: 8px;
+    min-height: 147px;
+ 
 
 }
 .properties-page .proerty-th .proerty-price{
@@ -2360,22 +2362,23 @@ count-area
 }
 
 .asks-first{
-    background-color: rgb(225, 225, 225);
+    background-color: #ece6da;
     padding: 35px 0px 35px 30px;
     position: relative;
     cursor: pointer;
+    min-height: 186px;
 }
 .asks-first:hover{
-    background-color: #8C8C8C; 
+    background-color: #ece6da; 
 }
 .asks-first:hover .asks-first-circle{
-    background-color: #8C8C8C; 
+    background-color: #ece6da; 
 }
 .asks-first-circle {
     float: left;
     width: 70px;
     height: 70px;
-    border: 2px solid #9C9C9C;
+    border: 2px solid #ece6da;
     border-radius: 100%;
     text-align: center;
     margin-right: 15px;
@@ -2387,7 +2390,7 @@ count-area
     line-height: 1;
 }
 .asks-first-info{
-    color: #FFF;
+    color: #281f1f;
     margin: 0px 65px 0px 85px;
 }
 .asks-first-info h2 {
@@ -2411,7 +2414,7 @@ count-area
 }
 .asks-first-arrow span {
     background: rgba(255, 255, 255, 0.19) none repeat scroll 0% 0%;
-    color: rgb(255, 255, 255);
+    color: rgb(57, 40, 40);
     border-radius: 100%;
     display: inline-block;
     padding: 4px;
@@ -2472,6 +2475,8 @@ count-area
 }
 .item-entry a {
     color: #000;
+    height: 100px !important;
+
 }
 .item-entry a:hover ,.item-entry a:focus {
     color: #999696;
@@ -2799,20 +2804,20 @@ padding-bottom: 15px;
 
 /*FOOOTER*/
 .footer-area{
-border-top: 1px solid #D1D1D1;
-background: #555 url("../../assets/img/bg-footer.jpg") repeat scroll 0% 0%;
-color: #535353;
+border-top: 1px solid #3c1e1e;
+background: #0a1a2f !important;
+color: #cecece !important;
 }
 .footer{
 padding: 0px 0px 60px;
-background: rgba(255, 255, 255, 0.89) none repeat scroll 0% 0%;
+background: #0a1a2f (56, 14, 14, 0.89) none repeat scroll 0% 0%;
 }
 .footer ul li i { 
     padding-right: 10px;
     color: #000;
 } 
 .footer-copy{
-    background: rgba(213, 213, 213, 0.9) none repeat scroll 0% 0%;
+    background: #0a1a2f;
     border-top: 0.051px solid rgba(162, 162, 162, 0.46);
     padding-bottom: 0px;
     padding-bottom: 7px;
@@ -2830,12 +2835,12 @@ padding-top: 7px;
     padding-bottom: 20px;
 }
 .footer h4{
-    color: #717171;
+    color: #f6f6f6;
     font-weight: 400;
     margin-top: 0px;
     font-size: 20px;
     text-transform: uppercase;
-    border-bottom: 2px solid #878787;
+    border-bottom: 2px solid #ffffff;
     line-height: 35px;
     margin-bottom: 0px;
     letter-spacing: 2px;
@@ -2874,7 +2879,7 @@ ul.footer-adress li {
     margin-bottom: -4px;
 }
 .footer ul li a{
-color: #535353;
+color: #f2f2f2;
 font-weight: 500;
 text-transform: uppercase;
 font-size: 13px;
@@ -3008,7 +3013,7 @@ padding: 10px;
 }
 .bottom-menu ul li a { 
     font-size: 13px;
-    color: #2A2A2A;
+    color: #ffffff;
     padding: 10px;
     font-weight: 500;
 }
